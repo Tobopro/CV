@@ -1,0 +1,28 @@
+/* Ajoutez votre CSS ici */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url('https://cdn.pixabay.com/photo/2022/09/22/04/46/kitchen-7471627_1280.jpg'); /* Ajoutez le chemin de votre image de fond ici */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
