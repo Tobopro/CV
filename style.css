@@ -320,25 +320,26 @@ nav a{
     font-size: 1rem;
   }
 
-.face img{
-    
+  .face img{
     position: relative;
-    top:-15vh;
-    margin-bottom: 10vh;
+    top:-17.5vh;
+    left: -5vh;
+    margin-bottom: 0vh;
     width: 20vh; 
     height: 20vh; 
     border-radius: 10vh;
 
 }
 
-.face h2{
+.face p{
     position:relative;
-    top:-35vh;
-    left: 22vh;
-    display: inline-block;
-    width: 40vh;
+    top:-11.5vh;
+    left: -2vh;
+    
+    width: 20vh;
+    font-size: 3vh;
+     margin-bottom: 25vh;
 }
-
 .navbar-desktop {
     display: none;
 }
@@ -358,6 +359,7 @@ nav a{
 
 }
 
+/* Phone portrait */
 @media only screen and (max-width: 725px){
 
     .main-summary{
@@ -395,5 +397,29 @@ nav a{
         overflow-y : clip; 
     }
 
+    /* .face{
+        display: inline;
+    } */
+    .face img{
+        position: relative;
+        top:-17.5vh;
+        left: -5vh;
+        margin-bottom: 0vh;
+        width: 20vh; 
+        height: 20vh; 
+        border-radius: 10vh;
+    
+    }
+    
+    .face p{
+        position:relative;
+        top:-25vh;
+        left: 20vh;
+        right: 0vh;
+        width: 15vh;
+        width: 20vh;
+        font-size: 3vh;
+         margin-bottom: 6vh;
+    }
 
 }

@@ -5,6 +5,9 @@ document.addEventListener("DOMContentLoaded", function() {
     // Active le dropdown
     $('.dropdown-toggle').dropdown();
 })
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
 // $(document).ready(function() {
 //     // Écoutez le clic sur tous les boutons d'accordéon
 //     $('.accordion-button').click(function() {
