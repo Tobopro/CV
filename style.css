@@ -363,13 +363,15 @@ nav a{
 @media only screen and (max-width: 725px){
 
     .main-summary{
-        display: flexbox;
+        display: block;
         justify-content: center;
         align-items: center;
         text-align: center;
         position:absolute;
-        top: 5vh;
+        top: 6vh;
        width: auto;
+       right: 4vh;
+        /* left: 10%; */
         
     }
     
@@ -395,6 +397,14 @@ nav a{
         overflow-x : clip; 
         overflow-y : clip; 
     }
+
+    .navbar-mobile {
+        display: block;
+        position: absolute;
+        top:-3vh;
+        left: 2vh;
+    }
+
 
     /* .face{
         display: inline;
